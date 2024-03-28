@@ -1,0 +1,96 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../image/bg-desktop.svg) no-repeat;
+    background-size: 100% auto center;
+    background-color: var(--violet-primary-color);
+}
+
+.header-container{
+    margin: 3rem 0 8.7rem 7.3rem;
+    width: 20.7rem;
+}
+
+.content-elements {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 7rem;
+}
+
+.content-elements .mockups {
+    width: 100%;
+}
+
+.content-elements .info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3.7rem;
+    margin-left: -1.7rem;
+    width: 100%;
+    
+}
+
+.content-elements .info h1 {
+    font-family: var(--headings-font-family);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 4rem;
+    width: 60%;
+    margin-bottom: 2.6rem;
+}
+
+.content-elements .info p {
+    font-family: var( --body-font-family);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.8rem;
+    width: 67%;
+    margin-bottom: 3rem;
+}
+
+.content-elements .info .btn-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var( --body-font-family);
+    color: var(--violet-primary-color);
+    background-color: #ffffff;
+    border-radius: 6rem;
+    width: 20rem;
+    height: 5.5rem;
+}
+
+.content-elements .info .btn-register:hover {
+    color: #ffffff;
+    background-color: var(--action-color);
+    transition: 0.3s;
+}
+
+.footer {
+    margin-top: 1.8rem;
+    margin-left: 74.8%;
+    font-size: 1.7rem;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram  {
+    text-align: center;
+    border: #ffffff solid 0.2rem;
+    border-radius: 100%;
+    padding: 1.9%;
+    color: #ffffff;
+    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.fa-facebook-f:hover, .fa-twitter:hover,  .fa-instagram:hover{
+    color: var(--action-color);
+    border-color: var(--action-color);
+    transition: 0.3s;
+}

@@ -1,0 +1,242 @@
+/* @media (max-width:375px) {
+
+    body {
+        background: url(../image/bg-mobile.svg) no-repeat;
+        background-color: var(--violet-primary-color);
+    }
+
+    .header-container {
+        margin: 5rem 0 3rem 2rem;
+        width: 17.5rem;
+    }
+
+    .content-elements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0; 
+    }
+
+    .content-elements .mockups {
+        width: 80%;
+        margin-bottom: 6rem;
+    }
+
+    .content-elements .info {
+        text-align: center;
+        align-items: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .content-elements .info h1 {
+        font-size: 3rem;
+        width: 95%;
+        margin-bottom: 2.6rem;
+    }
+
+    .content-elements .info p {
+        font-size: 1.6rem;
+        width: 80%;
+    }
+
+    .content-elements .info .btn-register {
+        font-size: 1.6rem;
+        border-radius: 6rem;
+        width: 20rem;
+        height: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 0.1rem;
+    }
+
+    .fa-facebook-f, .fa-twitter, .fa-instagram  {
+        padding: 20%;
+        margin: 3.7rem;
+        margin-left: 0;
+    }
+} */
+
+@media (max-width:425px) {
+    body {
+        background: url(../image/bg-mobile.svg) no-repeat;
+        background-color: var(--violet-primary-color);
+        background-size: contain;
+    }
+
+    .header-container{
+        margin: 3rem 0 6rem 3rem;
+    }
+
+    .content-elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .content-elements .mockups {
+        width: 80%;
+        margin-bottom: 6rem;
+    }
+
+    .content-elements .info {
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .content-elements .info h1 {
+        font-size: 3rem;
+        width: 95%;
+        margin-bottom: 2.6rem;
+    }
+
+    .content-elements .info p {
+        font-size: 1.6rem;
+        width: 80%;
+    }
+
+    .content-elements .info .btn-register {
+        font-size: 1.8rem;
+        border-radius: 6rem;
+        width: 20rem;
+        height: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 0.1rem;
+    }
+
+    .fa-facebook-f, .fa-twitter, .fa-instagram  {
+        padding: 20%;
+        margin: 3.7rem;
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width:426px) and (max-width: 768px) {  
+
+    .content-elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .content-elements .mockups {
+        width: 80%;
+        margin-bottom: 6rem;
+    }
+
+    .content-elements .info {
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .content-elements .info h1 {
+        font-size: 4.4rem;
+        width: 70%;
+        margin-bottom: 2.6rem;
+    }
+
+    .content-elements .info p {
+        font-size: 1.8rem;
+        width: 70%;
+    }
+
+    .content-elements .info .btn-register {
+        font-size: 1.9rem;
+        border-radius: 6rem;
+        width: 25rem;
+        height: 5rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 0.1rem;
+    }
+
+    .fa-facebook-f, .fa-twitter, .fa-instagram  {
+        padding: 20%;
+        margin: 4rem;
+        margin-left: 0;
+    }
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    .content-elements {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5rem;
+    }
+
+    .content-elements .mockups {
+        width: 78%;
+    }
+
+    .content-elements .info {
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .content-elements .info h1 {
+        font-size: 3.4rem;
+        width: 80%;
+        margin-bottom: 2.6rem;
+    }
+
+    .content-elements .info p {
+        width: 80%;
+    
+    }
+
+    .content-elements .info .btn-register {
+        font-size: 1.9rem;
+        border-radius: 6rem;
+        width: 20rem;
+        height: 4rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 17rem;
+        font-size: 0.1rem;
+    }
+
+    .fa-facebook-f, .fa-twitter, .fa-instagram  {
+        padding: 1rem;
+        margin: 2rem;
+        margin-left: 0;
+    }
+} 
