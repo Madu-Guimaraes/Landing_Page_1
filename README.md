@@ -26,7 +26,7 @@ Estou muito contente com o resultado. ☺️
 
 ## Link para o site: 
 
-[Página de Receitas] ()
+![Landing-Page](https://madu-guimaraes.github.io/Quest_html_e_css_avancado/)
 
 ## Design Responsivo 📱🖥️
 ![landing-page-responsivo](https://github.com/Madu-Guimaraes/Quest_html_e_css_avancado/assets/146151781/422803e2-e099-4996-820b-01fba2a51adf)
